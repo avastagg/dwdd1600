@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ava Stagg">
+    <meta name="description" content="Handcode Assignment">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="matrix.css">
+    <title>The Matrix 1999 - Home</title>
+</head>
+
+<body>
+    <header>
+        <span>The Matrix 1999</span>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">The Code</a></li>
+            <li><a href="bullettime.html">Bullet Time</a></li>
+            <li><a href="castandcrew.html">Cast and Crew</a></li>
+            <li class="active"><a href="redpills.html">Red Pills</a></li>
+            <li><a href="#funfacts">Fun Facts</a></li>
+        </ul>
+    </nav>
+
+
+
+    <main>
+        <h1>Order Your Red Pill Today!</h1>
+          <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+            <legend>Step 1: Customer Information</legend>
+            <label> First Name*<input type="text" name="fname" required></label>
+            <label> Last Name*<input type="text" name="lname" required></label>
+            <label> Alias (ex: Neo)<input type="text" name="aname"></label>
+            <label> Cell Number*<input type="tel" name="phone" required placeholder="303-303-3003"></label>
+            <label>Email*<input type="email" name="email" required></label>
+            </fieldset>
+
+
+            <fieldset>
+            <legend>Step 2: Psycological Evaluation</legend>
+            <p>Please Select All That Apply</p>
+            <label><input type="checkbox" name="something" value="chosen"> Feelings of "something" beyond your sight.</label>
+            <label><input type="checkbox" name="wakeup" value="chosen"> A need to "wake up".</label>
+            <label><input type="checkbox" name="fate" value="chosen"> Refusal to believe in fate.</label>
+            <label><input type="checkbox" name="control" value="chosen"> A desire to be in control of your own life.</label>
+            <label><input type="checkbox" name="whatisit" value="chosen"> Feeling that something is wrong with the world.</label>
+            <label><input type="checkbox" name="whatisit" value="chosen"> What you know you can't explain.</label>
+           </fieldset>
+
+
+           <fieldset>
+            <legend>Step 3: Delivery Method</legend>
+            <label><input type="radio" name="method" value="agent"> An Agent (30s)</label>
+            <label><input type="radio" name="method" value="ship"> Nebuchadnezzar (1hr)</label>
+            <label><input type="radio" name="method" value="squid"> Sentinels (1day)</label>
+            <label><input type="radio" name="method" value="morph"> Morpheus (3days, but most effective!)</label>
+           </fieldset>
+
+
+           <fieldset>
+            <legend>Step 4: Delivery Options</legend>
+            <label><input type="checkbox" name="morpheus" value="chosen"> Meet and Greet</label>
+            <p>By selecting this option you accept the terms that you may be kiddnapped and taken to a secure location.</p>
+            
+
+            <label>Preferred Delivery Time
+            <select name="time">
+            <option value="none">Select One</option>
+            <option value="midnight">12am sharp</option>
+            <option value="neoclock">3:03am</option>
+            <option value="officehours">Between 9:00am and 5:00pm</option>
+            <option value="bluepill">Never (commonly used for blue pill-ers)</option>
+            </select>
+            </label>
+           </fieldset>
+
+
+           <label>Special Instructions
+            <textarea name="Special Instructions"></textarea>
+           </label>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 &bull; Ava Stagg The Matrix 1999 &bull; Web Essentials Project</p>
+        <address>
+            Written by <a href="mailto:ava@example.com"> Ava Stagg</a><br> Web Essentials Project.
+            Call us at <a href="tel:8005551234">800-555-1234</a>
+        </address>
+    </footer>
+
+</body>
+
+</html>
